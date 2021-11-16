@@ -165,6 +165,25 @@ textarea.form-control {
     padding : 0 20px;
   }
  
+  /* Skill */
+.container-skills {
+    padding: 15px 15px;
+}
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  padding-left: 5px;
+  color: white; /* White text color */
+  size : 16em ;
+  font-weight: bold;
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.asp {width: 90%; background-color: #da1b90;} /* Dark Grey */
 
 
 
