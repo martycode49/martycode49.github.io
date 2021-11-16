@@ -1,0 +1,170 @@
+/* Color Theme Swatches in Hex */
+.Explore-1-hex { color: #CC7875; }
+.Explore-2-hex { color: #994441; }
+.Explore-3-hex { color: #FF99F2; }
+.Explore-4-hex { color: #D3FF8E; }
+.Explore-5-hex { color: #C8CC66; }
+
+
+/* font-family: 'Raleway',sans-serif; */
+body, html {
+    padding : 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway',sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+hr {
+    width: 10%;
+    size: 10px;
+    text-align: center;
+    background-color: #C8CC66; 
+}
+
+/* header https://color.adobe.com/fr/ */
+
+.header {
+    background-color : #CC7875;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.menu{
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.menu a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #C8CC66;
+}
+
+/* bannière */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%; 
+    position : relative;
+}
+
+.inner-banner {
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #fff;
+    text-shadow: 4px 4px 20px #000;
+    font-size: 80px;
+}
+
+.inner-banner .btn-custom {
+    background-color: #CC7875;
+    color: #fff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #C8CC66;
+}
+
+/* about */
+#about {
+    text-align: center;
+}
+
+.about article {
+    margin-top: 20px;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: #eeeeee;
+    height: 920px;
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .itemfolio {
+    height: 280px;
+    background-color: #ffc799;
+}
+/* contact */
+.footer {
+    background-color: #CC7875;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    margin: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+textarea.form-control {
+    height:100px;
+}
+
+
+.menu-social {
+    display: flex;
+    flex-direction: row;
+    /* Below sets up your display method: flex-start|flex-end|space-between|space-around */
+    justify-content: center; 
+    /* Below removes bullets and cleans white-space */
+    list-style: none;
+    padding: 0;
+    /* Bonus: forces no word-wrap */
+    white-space: nowrap;
+  }
+  /* Here, I got you started. */
+  li {
+    padding : 0 20px;
+  }
+ 
+
+
+
